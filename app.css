@@ -155,7 +155,8 @@ p {
 
 @media only screen and (max-width: 750px) {
   .card {
-    width: 90vw;
+    width: 70vw;
+    overflow: hidden;
   }
 }
 
