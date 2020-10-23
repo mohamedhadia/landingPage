@@ -73,17 +73,7 @@ nav {
   height: 90vh;
 }
 
-@media only screen and (max-width: 850px) {
-  .section1 {
-    flex-direction: column;
-  }
-  .card {
-    width: 70vw;
-    overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 0;
-  }
-}
+
 .section1 div {
   align-self: center;
   flex: 1;
@@ -219,4 +209,17 @@ p {
 
 .secCard img {
   padding-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .section1 {
+    flex-direction: column;
+  }
+  .card {
+    width: 70vw;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
 }
