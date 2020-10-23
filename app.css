@@ -77,9 +77,6 @@ nav {
   .section1 {
     flex-direction: column;
   }
-  .card {
-    margin-top: 200px;
-  }
 }
 .section1 div {
   align-self: center;
@@ -165,6 +162,8 @@ p {
   .card {
     width: 70vw;
     overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 0;
   }
 }
 
